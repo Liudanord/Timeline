@@ -18,7 +18,7 @@ body {
 
 .timeline {
   width: 100%;
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(184, 184, 184);
   height: 100%;
 }
 .timeline .swiper-container {
@@ -60,7 +60,7 @@ body {
   top: 30%;
   -webkit-transform: translate(50%, 0);
           transform: translate(50%, 0);
-  font-size: 12px;
+  font-size: 17px;
   z-index: 2;
 }
 .timeline .swiper-slide .timeline-year {
@@ -115,7 +115,7 @@ body {
   transition: .4s ease 1.8s;
 }
 .timeline .swiper-pagination {
-  right: 50% !important;
+  right: 60% !important;
   height: 100%;
   display: none;
   -webkit-box-orient: vertical;
@@ -260,6 +260,7 @@ body {
     box-shadow: -230px 0 150px 39vw rgba(0, 0, 0, 0.7);
   }
   .timeline .swiper-slide-content {
-    left: 8%;
+    left: 65%;
+    top: 20%;
   }
 }
